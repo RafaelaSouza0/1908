@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o seu futuro!</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o seu futuro!</h1>
+        <div class="tela-inicial" id="tela-inicial">
+            <p>"Você decide o seu futuro!" Neste quiz interativo, cada escolha que você faz constrói um caminho único rumo ao seu destino. Descubra as possibilidades, explore diferentes decisões e veja como elas moldam sua jornada. O poder de criar o futuro que você deseja está em suas mãos!"</p>
+            <button class="iniciar-btn" id="iniciar-btn">Iniciar</button>
+        </div>
+        <div class="caixa-perguntas" id="caixa-perguntas" style="display:none;"></div>
+        <div class="caixa-alternativas" id="caixa-alternativas" style="display:none;"></div>
+        <div class="caixa-resultado" id="caixa-resultado" style="display:none;">
+            <p class="texto-resultado" id="texto-resultado"></p>
+            <button class="novamente-btn" id="novamente-btn">Tentar novamente</button>
+        </div>
+    </div>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
+
